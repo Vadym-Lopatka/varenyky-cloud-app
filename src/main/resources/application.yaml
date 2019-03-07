@@ -1,4 +1,4 @@
 spring:
     kafka:
         bootstrap-servers:
-            - kafka.varenykycloud.com:9092
+            - localhost:9092
