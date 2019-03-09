@@ -22,7 +22,7 @@ public class OrderService {
 
     public void orderGenerator() {
 
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 5; i++) {
             log.info("order_producer_>>: {}", i);
             kafkaTemplate.send(TOPIC_NAME, String.valueOf(i));
         }
